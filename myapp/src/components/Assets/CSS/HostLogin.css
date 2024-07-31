@@ -1,0 +1,5 @@
+.bg-host {
+    background-image: url("/src/components/imgs/Host.png");
+    background-position: center;
+    background-size: cover;
+}

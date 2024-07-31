@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+body {
+  font-family: Quicksand;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+  color: #fff; 
+}
+
+.custom-modal-width .modal-dialog {
+  max-width: 700px; 
+}

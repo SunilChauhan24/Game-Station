@@ -1,0 +1,5 @@
+.bg {
+  background-image: url("/src/components/imgs/Admin.png");
+  background-position: center;
+  background-size: cover;
+}

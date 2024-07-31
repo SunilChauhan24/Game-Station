@@ -1,0 +1,22 @@
+    // try {
+    //   const response = await hostApis.login(emailOrPhone, password);
+
+    //   if (response.status === 200) {
+    //     const hostId = response.data.host._id;
+    //     localStorage.setItem("hostId", hostId);
+    //     localStorage.setItem("isLoggedHostIn", true);
+    //     setSuccessMessage(response.data.message);
+    //     navigate("/host/gameStations");
+    //   } else {
+    //     if (response.status === 401) {
+    //       setErrorMessage("Invalid email or password. Please try again.");
+    //     } else {
+    //       setErrorMessage(
+    //         "An error occurred while logging in. Please try again."
+    //       );
+    //     }
+    //   }
+    // } catch (error) {
+    //   console.error("Login error:", error);
+    //   setErrorMessage("An error occurred while logging in. Please try again.");
+    // }

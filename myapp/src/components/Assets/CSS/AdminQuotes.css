@@ -1,0 +1,25 @@
+.card-deck {
+  display: flex;
+  flex-direction: column;
+}
+
+.quotes-scrollbar {
+  max-height: 80vh;
+  overflow-x: auto;
+}
+
+.quotes-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.quotes-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.quotes-scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.quotes-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

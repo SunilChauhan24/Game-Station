@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+body {
+    font-family: Quicksand;
+  }
+
+.bg-golden {
+  background-color: var(--golden);
+}
+
+.btn-golden {
+  background-color: var(--golden);
+  border: 1px solid var(--golden);
+  color: white;
+}
+
+.btn-golden:hover {
+  border-color: var(--golden);
+}
+
+.btn-outline-golden {
+  color: var(--golden);
+  background-color: transparent;
+  border-color: var(--golden);
+}
+
+.btn-outline-golden:hover {
+  color: #fff;
+  background-color: var(--golden);
+  border-color: var(--golden);
+}
+
+.text-golden {
+  color: var(--golden);
+}
+
+.hrline {
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+  color: var(--accent-color-dark);
+}
+
+.hrline::before,
+.hrline::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  border-radius: 50px;
+  width: 40%;
+  height: 3px;
+  background-color: rgb(167, 167, 167);
+  transform: translateY(-50%);
+}
+
+.hrline:before {
+  left: 0;
+}
+
+.hrline:after {
+  right: 0;
+}

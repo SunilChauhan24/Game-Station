@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+:root {
+  --primary-text-color: #183b56;
+  --secondary-text-color: #577592;
+  --accent-color: #2294ed;
+  --accent-color-dark: #1d69a3;
+  --primary-color: var(--golden);
+  --black: #222831;
+  --grey: #393e46;
+  --yellow: #ffd369;
+  --golden: #f0ac0b;
+  --light-white: #eeeeee;
+  --white: #ffffff;
+  --light_blue: #008db3;
+  --light_yellow: #f0ff46;
+  --light-golden: #e3c66d;
+}
+
+body {
+  font-family: Quicksand;
+}
+
+.bg-golden {
+  background-color: var(--golden);
+}
+
+.bg-User {
+  background-image: url("/src/components/imgs//games.png");
+}
+
+.btn-golden {
+  background-color: var(--golden);
+  border: 1px solid var(--golden);
+  color: white;
+}
+
+.btn-golden:hover {
+  border-color: var(--golden);
+}
+
+.btn-outline-golden {
+  color: var(--golden);
+  background-color: transparent;
+  border-color: var(--golden);
+}
+
+.btn-outline-golden:hover {
+  color: #fff;
+  background-color: var(--golden);
+  border-color: var(--golden);
+}
+
+.text-golden {
+  color: var(--golden);
+}
+
+.hrline {
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+  color: var(--accent-color-dark);
+}
+
+.hrline::before,
+.hrline::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  border-radius: 50px;
+  width: 40%;
+  height: 3px;
+  background-color: rgb(167, 167, 167);
+  transform: translateY(-50%);
+}
+
+.hrline:before {
+  left: 0;
+}
+
+.hrline:after {
+  right: 0;
+}
+
+#logo {
+  margin-top: -30px;
+  margin-bottom: -20px;
+}
+
+#logIn {
+  color: white;
+  background-color: #f0ac0a;
+}
+
+#logIn:hover {
+  background-color: #fff;
+  border: 1px solid #f0ac0a;
+  color: #f0ac0a;
+}
+
+#signUp {
+  color: white;
+  background-color: #f0ac0a;
+}
+
+#signUp:hover {
+  background-color: #fff;
+  border: 1px solid #f0ac0a;
+  color: #f0ac0a;
+}
+
+.form-control {
+  border-radius: none;
+}
+
+.container .forgot {
+  font-size: 12px;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: "satisfy";
+  font-weight: 650;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  position: relative;
+  transition: 0.2s all ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: var(--golden);
+  transition: all 0.2s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after,
+.navbar-nav .nav-item .nav-link.active::after {
+  width: 100%;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--golden);
+  transform: scale(1.03);
+}
+
+/* profile nav-links */
+#profile .nav-tabs .nav-link {
+  color: #000;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  transition: all 0.2s ease;
+}
+
+#profile .nav-tabs .nav-link.active {
+  color: var(--golden);
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+  border-top: 2px solid #939292;
+  border-left: 2px solid #939292;
+  border-right: 2px solid #939292;
+}
+
+#profile .nav-tabs .nav-link:hover {
+  background-color: #f0f0f0;
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive-text {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navbar ul button {
+    background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #fbLogo {
+    width: 20%;
+  }
+  #googleLogo {
+    width: 20%;
+  }
+}
+
+/* profile page */
+/* div .imgg img {
+  max-width: 300px;
+  aspect-ratio: 1/1;
+} */
+
+.login-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.login-icon + .login-icon {
+  margin-left: 30px;
+}
+
+/* header */
+#header-img-home {
+  background-image: url("./components/imgs/bg.jpeg");
+  background-size: cover;
+}
+
+.mask {
+  position: absolute;
+  background-position: 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.opacity-4 {
+  opacity: 0.4 !important;
+}
+
+#x1,
+#x2,
+#x3,
+#x4,
+#x5 {
+  background-image: url("./components/imgs/footballavif.avif");
+}
+
+/* Contact */
+.contactUs-card {
+  transition: all 0.3s ease-in-out;
+}
+
+.contactUs-card:hover .btn-golden {
+  background-color: var(--light-white);
+  color: #111;
+}
+
+.contactUs-card:hover .text-golden {
+  color: var(--light-white);
+}
+
+.contactUs-card:hover {
+  background-color: var(--golden);
+  transform: scale(1.1);
+  transform: translateY(-10px);
+}
+
+.teamCard,
+.teamCard-img,
+.teamCard-text {
+  transition: All 0.4s ease;
+  position: relative;
+}
+
+.teamCard:hover {
+  transform: translateY(-10px);
+}
+
+.teamCard:hover .teamCard-img {
+  filter: drop-shadow(0px 0px 11px rgba(0, 0, 0, 0.2));
+  transform: translateY(1.08);
+  transform: scale(1.03);
+}
+
+.teamCard:hover .teamCard-text {
+  transform: scale(1.1);
+  display: block;
+}

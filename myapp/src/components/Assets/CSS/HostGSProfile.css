@@ -1,0 +1,28 @@
+.options-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 180px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999; 
+    text-align: start;
+  }
+  
+  .options-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .options-menu ul li {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .options-menu ul li:hover {
+    background-color: #f5f5f5;
+  }
+  

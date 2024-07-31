@@ -1,0 +1,18 @@
+#bg-serach {
+    background-image: url('../../imgs/games.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#bg-game-serach {
+    background-image: url('../../imgs/games.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#bg-booking {
+    background-image: url('../../imgs/gameHero2.png');
+    background-size: cover;
+    background-position: center;
+    
+}
